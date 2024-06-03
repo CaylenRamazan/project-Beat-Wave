@@ -1,0 +1,224 @@
+body{
+    background-image: linear-gradient(#085781, #4826c1);
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+h1{
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+}
+#artiestendiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;
+}
+.artiest{
+    
+    background-color: #9d3adf;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 4%;
+    border-radius: 4%;
+    box-shadow: 0.2vw 0.2vw 0.5vw;
+}
+.artiestinformatie{
+    display: flex;
+    justify-content: center;
+}
+.artiestfotodiv{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+    overflow: hidden;
+}
+.artiestfoto{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.artiestnaam{
+    font-size: 2vw;
+}
+.bannerdiv{
+    position: relative;
+    width: 100%;
+}
+.bannerfoto{
+    width: 100%;
+}  
+#countdown{
+    position: absolute;
+    top: 4%;
+    left: 4%;
+    color: #9d3adf;
+    font-size: 5vw;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+#informatie-overlay-div{
+    width: 100%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+    top: 30%;
+}
+.informatie-overlay{
+    background-color: #9d3adf;
+    border-radius: 1vw;
+    width: 45%;
+    height: 100%;
+    font-size: 20px;
+    padding: 1%;
+    margin-left: 23%;
+    box-shadow: 0.2vw 0.2vw 0.5vw 0.2vw;
+}
+.overlay-foto-div{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+    overflow: hidden;
+}
+.overlay-foto{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 4%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.informatie-artiest-home{
+    margin-bottom: 2%;
+    margin-top: 2%;
+    font-size: 1.35vw;
+}
+.hidden-text1 {
+    display: none;
+    
+  }
+.hidden-text2 {
+    display: none;
+  }
+.hidden-text3 {
+    display: none;
+  }
+.hidden-text4 {
+    display: none;
+  }
+#faq-hoofdtext{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    font-size: 3vw;
+    margin-bottom: 1%;
+    margin-left: 2%;
+
+}
+#faq-vragen{
+    width: 40%;
+    grid-row-gap: 2%;
+    height: auto;
+    margin-left: 2%;
+}
+#hidden-text1, #hidden-text2, #hidden-text3, #hidden-text4{
+    font-size: 1.5vw;
+    width: 98%;
+    height: 40%;
+    margin-left: 2%;
+}
+#link-hidden-text1, #link-hidden-text2, #link-hidden-text3, #link-hidden-text4{
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 100%;
+    font-size: 2vw;
+}
+.stagenaam{
+    font-size: 3vw;
+}
+.tijdschema{
+    display: flex;
+    justify-content: center;
+}
+.tabletijdschema{
+    width: 50%;
+    font-size: 2vw;
+    background-color: #9d3adf;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-spacing: 0;
+    border-radius: 1vw;
+    box-shadow: 0.2vw 0.2vw 0.7vw ;
+}
+.artiest-en-tijd-donker{
+    background-color: #6c17a4;
+}
+.tdartiest{
+    padding-top: 3%;
+}
+.tdtijd{
+    text-align: right;
+    padding-top: 3%;
+}
+.ervaringDiv {
+    max-width: 65%;
+    margin: 2% auto;
+    background-color: #9d3adf;
+    padding: 2%;
+    border-radius: 1vw;
+    box-shadow: 0.2vw 0.2vw 0.7vw;
+}
+.schedule-item {
+    border-bottom: 1px solid #ddd;
+    padding: 1% 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+button {
+    background-color: #6d5bd1;
+    color: #fff;
+    border: none;
+    padding: 0.8% 1.6%;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 0.5vw;
+    font-size: 1.35vw;
+}
+button:hover {
+    background-color: #3d25c7;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 2% 0;
+    text-align: center;
+}
+.optreden-knop{
+    background-color: #6d5bd1;
+    
+}
+.optreden-knop:hover{
+    background-color: #3d25c7;
+}
+.festivalervaring-tijd, .festivalervaring-naam{
+    font-size: 1.35vw;
+}
+h2{
+    font-size: 3vw;
+}
